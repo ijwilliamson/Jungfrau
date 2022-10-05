@@ -1,0 +1,208 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+#TopNav {
+    display:flex;
+    justify-content: space-between;
+    height:40px;
+    background-color: #ffffff;
+    font-family: Roboto,sans-serif;
+    font-size: 12px;
+}
+
+#TopNav ul{
+    display:flex;
+    width:320px;
+    margin:0px;
+    padding:0px;
+
+}
+
+#TopNav li{
+    width:160px;
+    display:block;
+    height: 40px;
+    padding-left:0px;
+    line-height: 40px;
+    text-align: center;
+}
+    #TopNav .active{
+        background-color:rgb(33, 56, 87);
+        color: #ffffff;
+    }
+    #TopNav  .inactive{
+        background-color: #ffffff;
+        color:#787878;
+    }
+
+#langSelect {
+    height: 40px;
+    line-height: 40px;
+    margin-right:60px;
+    color:#787878
+}
+
+.smallArrowDown{
+    margin-left:2px;
+    margin-right:-1px;
+    width:12px;
+    height:8px;
+    fill: #787878;
+}
+#account .loggedOut{
+    margin-left:2px;
+    margin-right:-1px;
+    width:20px;
+    height:20px;
+    fill: rgba(255,255,255,.5);  
+}
+
+#account:hover .loggedOut{
+    fill: rgba(33, 56, 87);  
+}
+
+li .search{
+    margin-left:2px;
+    margin-right:-1px;
+    width:20px;
+    height:20px;
+    fill: rgba(255,255,255,.5);  
+}
+
+li:hover .search{
+    fill: rgb(37, 121, 195);  
+}
+
+#MainNav {
+    height: 60px;
+    background-color: rgb(33, 56, 87);
+    position: relative;
+}
+
+#MainLogo {
+    position: absolute ;
+    top:40px;
+    left:14%;
+}
+
+#MainImage {
+    background-image: url('/images/Jungfraujoch-Sphinx-Gletscher.jpg');
+    height: 430px;
+    background-size: cover;
+    background-position: 0 calc(0px - calc(100vw / 11));
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+#MainImageOverlay {
+    font-family: "Roboto Condensed",sans-serif;;
+    color:#ffffff;
+    text-align: center;
+}
+
+#MainImageOverlay h1{
+ padding-top:46px;
+    font-size: 90px;
+ font-weight: 700;
+ margin-bottom: 10px;
+
+}
+#MainImageOverlay h2{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top:10px
+}
+
+#MainImage {
+    background-image: url('/images/Jungfraujoch-Sphinx-Gletscher.jpg');
+    height: 430px;
+    background-size: cover;
+    background-position: center  center;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+#NavList, #IconNav  {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    height:60px;
+    margin-top:0px;
+}
+
+#NavList li, #NavList a, #IconNav li {
+    display: block;
+    line-height: 57px;
+    font-family: Roboto,sans-serif;
+    font-size:15px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, .5);
+    padding-left: 18px;
+    padding-right:18px;
+
+}
+
+#NavList a{
+    text-decoration: none;
+    
+}
+
+#NavList a:hover{
+    color:white;
+    border-bottom: solid 3px white;
+}
+
+#IconNav{
+    position:absolute;
+    top:0px;
+    right:40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-items: center;
+    margin-bottom: 0px;
+    
+}
+
+#IconNav li, #IconNav svg{
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+#account:hover{
+    background-color: rgb(243,243,243);
+}
+
+
+
+
+@media (min-width: 1274px) {
+   
+}
+
+@media (max-width: 1274px) {
+    #MainImageOverlay h1{
+        padding-top:66px;
+           font-size: 58px;
+        font-weight: 700;
+        margin-bottom: 10px;
+       
+       }
+       #MainImageOverlay h2{
+           font-size: 22px;
+           font-weight: 700;
+           margin-top:10px
+       }
+  }
+  
+ articleContainer{
+    background-color: chartreuse;
+    width: 100%;
+    min-height: 600px;
+    display: block;
+ }
