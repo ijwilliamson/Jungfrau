@@ -1,0 +1,42 @@
+/* SVG Graphics */
+
+#langSelect {
+    height: 40px;
+    line-height: 40px;
+    margin-right:60px;
+    color:#787878;}
+
+.smallArrowDown{
+    margin-left:2px;
+    margin-right:-1px;
+    width:12px;
+    height:8px;
+    fill: #787878;}
+
+.diary{
+    margin-left:0px;
+    margin-right:8px;
+    margin-top: -4px;
+    width:18px;
+    height:18px;
+    fill: rgba(33, 56, 87);
+    vertical-align: middle;}
+
+.bestSeller{
+    margin-left:0px;
+    margin-right:8px;
+    margin-top: -4px;
+    width:92px;
+    height:36px;
+    fill: rgba(33, 56, 87);
+    vertical-align: middle;}
+
+#account .loggedOut{
+    margin-left:2px;
+    margin-right:-1px;
+    width:20px;
+    height:20px;
+    fill: rgba(255,255,255,.5);}
+
+#account:hover .loggedOut{
+    fill: rgba(33, 56, 87);  }

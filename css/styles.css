@@ -1,12 +1,12 @@
 a{
     text-decoration: none;
-    color:rgb(33, 56, 87);
-}
+    color:rgb(33, 56, 87);}
 
 body{
     margin:0px;
-    padding:0px;
-}
+    padding:0px;}
+
+/* Top Navigation Bar */
 
 #TopNav {
     display:flex;
@@ -14,126 +14,63 @@ body{
     height:40px;
     background-color: #ffffff;
     font-family: Roboto,sans-serif;
-    font-size: 12px;
-}
-
-#TopNav ul{
+    font-size: 12px;}
+    #TopNav ul{
     display:flex;
     width:320px;
     margin:0px;
-    padding:0px;
-
-}
-
-#TopNav li{
+    padding:0px;}
+    #TopNav li{
     width:160px;
     display:block;
     height: 40px;
     padding-left:0px;
     line-height: 40px;
-    text-align: center;
-}
+    text-align: center;}
     #TopNav .active{
         background-color:rgb(33, 56, 87);
-        color: #ffffff;
-    }
+        color: #ffffff;}
     #TopNav  .inactive{
         background-color: #ffffff;
-        color:#787878;
-    }
-
-#langSelect {
-    height: 40px;
-    line-height: 40px;
-    margin-right:60px;
-    color:#787878
-}
-
-.smallArrowDown{
-    margin-left:2px;
-    margin-right:-1px;
-    width:12px;
-    height:8px;
-    fill: #787878;
-}
-
-.diary{
-    margin-left:0px;
-    margin-right:8px;
-    margin-top: -4px;
-    width:18px;
-    height:18px;
-    fill: rgba(33, 56, 87);
-    vertical-align: middle;
-}
-
-.bestSeller{
-    margin-left:0px;
-    margin-right:8px;
-    margin-top: -4px;
-    width:92px;
-    height:36px;
-    fill: rgba(33, 56, 87);
-    vertical-align: middle;
-}
-
-#account .loggedOut{
-    margin-left:2px;
-    margin-right:-1px;
-    width:20px;
-    height:20px;
-    fill: rgba(255,255,255,.5);  
-}
-
-#account:hover .loggedOut{
-    fill: rgba(33, 56, 87);  
-}
+        color:#787878;}
 
 li .search{
     margin-left:2px;
     margin-right:-1px;
     width:20px;
     height:20px;
-    fill: rgba(255,255,255,.5);  
-}
+    fill: rgba(255,255,255,.5);}
 
 li:hover .search{
-    fill: rgb(37, 121, 195);  
-}
+    fill: rgb(37, 121, 195);}
+
+/* Main Navigation Bar */
 
 #MainNav {
     height: 60px;
     background-color: rgb(33, 56, 87);
-    position: relative;
-}
+    position: relative;}
 
 #MainLogo {
     position: absolute ;
     top:40px;
-    left:14%;
-}
-
-
+    left:14%;}
 
 #MainImageOverlay {
     font-family: "Roboto Condensed",sans-serif;;
     color:#ffffff;
-    text-align: center;
-} 
+    text-align: center;} 
 
-#MainImageOverlay h1{
- padding-top:46px;
-    font-size: 90px;
- font-weight: 700;
- margin-bottom: 10px;
+    #MainImageOverlay h1{
+        padding-top:46px;
+        font-size: 90px;
+        font-weight: 700;
+        margin-bottom: 10px;}
 
-}
-#MainImageOverlay h2{
+    #MainImageOverlay h2{
     font-size: 22px;
     font-weight: 700;
-    margin-top:10px
-}
-
+    margin-top:10px;}
 
 #MainImage {
     background-image: url('/images/Jungfraujoch-Sphinx-Gletscher.jpg');
@@ -142,8 +79,7 @@ li:hover .search{
     background-position: center  center;
     display:flex;
     align-content: center;
-    flex-direction: column;
-}
+    flex-direction: column;}
 
 #NavList, #IconNav  {
     display: flex;
@@ -151,29 +87,22 @@ li:hover .search{
     justify-items: center;
     justify-content: center;
     height:60px;
-    margin-top:0px;
-}
+    margin-top:0px;}
 
-#NavList li, #NavList a, #IconNav li {
-    
-    line-height: 57px;
-    font-family: Roboto,sans-serif;
-    font-size:15px;
-    font-weight: 900;
-    color: rgba(255, 255, 255, .5);
-   
+    #NavList li, #NavList a, #IconNav li {
+        
+        line-height: 57px;
+        font-family: Roboto,sans-serif;
+        font-size:15px;
+        font-weight: 900;
+        color: rgba(255, 255, 255, .5);}
 
-}
+    #NavList a{
+        text-decoration: none;}
 
-#NavList a{
-    text-decoration: none;
-    
-}
-
-#NavList a:hover{
+    #NavList a:hover{
     color:white;
-    border-bottom: solid 3px white;
-}
+    border-bottom: solid 3px white;}
 
 #IconNav{
     position:absolute;
@@ -183,139 +112,23 @@ li:hover .search{
     flex-direction: row;
     justify-content: right;
     justify-items: center;
-    margin-bottom: 0px;
-    
-}
+    margin-bottom: 0px;}
 
-#IconNav li, #IconNav svg{
-    line-height: 60px;
-    vertical-align: middle;
-}
+    #IconNav li, #IconNav svg{
+        line-height: 60px;
+        vertical-align: middle;}
 
 #account:hover{
-    background-color: rgb(243,243,243);
-}
+    background-color: rgb(243,243,243);}
 
-
-
-
-@media (min-width: 1308px) {
-    articles .aWrap{
-        display:block;
-        margin-left:45px;
-        margin-right:45px;
-        margin-top:30px;
-    }
-
-}
-
-@media (max-width: 1308px) {
-    #MainImageOverlay h1{
-        padding-top:66px;
-           font-size: 58px;
-        font-weight: 700;
-        margin-bottom: 10px;
-       
-       }
-       #MainImageOverlay h2{
-           font-size: 22px;
-           font-weight: 700;
-           margin-top:10px
-       }
-
-       articles .aWrap{
-        
-        margin-left:15px;
-        margin-right:15px;
-        
-    }
-
-    #videoFrame{
-        width:1182px;
-        margin-left:auto;
-        margin-right:auto;
-        height:600px;
-    }
-
-  }
-
-  @media (max-width:960px) {
-    
-    
-    #NavList li, #NavList a, #IconNav li {
-        
-        padding-left: 6px;
-        padding-right:6px;  
-        display: block;
-
-
-}
-  }
-
-  @media (min-width:960px) {
-    
-    
-    #NavList li, #NavList a, #IconNav li {
-        
-        padding-left: 18px;
-        padding-right:18px;  
-        display: block;
-
-
-}}
-
-@media (max-width:640px) {
-    
-    
-    #NavList li, #NavList a, #IconNav li {
-        
-       display: none; 
-    }
-  }
-
-
-#videoContainer{
-    display:flex;
-    flex-direction: column;
-    margin-top:40px;
-}
-
-#videoContainer h2{
-    text-align: center;
-    font-family: JungfrauSerif,serif;
-    font-size: 24px;
-    font-weight:700;
-}
-
-#videoContainer p{
-    font-family: Roboto,sans-serif;
-    font-size:14px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-    color: rgb(33, 56, 87);
-    margin-top:40px;
-}
-
-  .videoFrame{
-    width:calc( 100vw - 160px);
-    height:calc(calc(100vw - 160px) / 1.78)!important;
-    max-width: 1000px;
-    max-height: 562px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:20px;
-}
-  
- content{
-   
+/* Main page content */
+content{
     width: auto;
     min-height: 600px;
     display: block;
-    margin-top:80px;
- }
+    margin-top:80px;}
 
- content .intro{
+    content .intro{
     font-family: JungfrauSerif,serif;
     font-size: 15px;
     font-weight: 700;
@@ -323,14 +136,47 @@ li:hover .search{
     color: #213857;
     text-align: center; }
 
-content .prices{
+    content .prices{
+        font-family: JungfrauSerif,serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.85;
+        color: #213857;
+        text-align: center;
+        margin-top:60px }
+
+/* Video Section */
+
+#videoContainer{
+    display:flex;
+    flex-direction: column;
+    margin-top:40px;}
+
+    #videoContainer h2{
+    text-align: center;
     font-family: JungfrauSerif,serif;
     font-size: 24px;
-    font-weight: 700;
-    line-height: 1.85;
-    color: #213857;
+    font-weight:700;}
+
+    #videoContainer p{
+    font-family: Roboto,sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    line-height: 26px;
     text-align: center;
-    margin-top:60px }
+    color: rgb(33, 56, 87);
+    margin-top:40px;}
+
+    .videoFrame{
+    width:calc( 100vw - 160px);
+    height:calc(calc(100vw - 160px) / 1.78)!important;
+    max-width: 1000px;
+    max-height: 562px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;}
+
+/* Articles and article styles */    
 
 articles{
     display:flex;
@@ -339,28 +185,16 @@ articles{
     flex-wrap: wrap;
     margin-left:auto;
     margin-right:auto;
-    margin-top:-40px
-}
-
-articles .aWrap{
-    display:block;
-
-    margin-top:30px;
-}
-
-
+    margin-top:-40px;}
+    
 article{
     display:block;
     width:340px;
     position:relative;
-    cursor: pointer;
-}
-    
-    
+    cursor: pointer;}
 
     article img {
-        border-radius: 4px;
-    }
+        border-radius: 4px;}
 
     article price{
         background-color:rgb(247,209,7);
@@ -371,8 +205,7 @@ article{
         font-size:12px;
         font-weight: 700px;
         border-radius: 2px;
-        position: absolute;
-    }
+        position: absolute;}
 
     article h4{
         font-family: Roboto,sans-serif;
@@ -380,23 +213,81 @@ article{
         font-weight: 700;
         margin-top: 12px;
         margin-bottom: 12px;
-        text-decoration: underline;
-    }
+        text-decoration: underline;}
 
     article .mainPar{
         font-family: Roboto,sans-serif;
         font-size:14px;
         font-weight: 400;
-        line-height: 26px;
-        
-    }
+        line-height: 26px;}
 
     article .availability{
-        font-family: Roboto,sans-serif;
-        font-size:12px;
+            font-family: Roboto,sans-serif;
+            font-size:12px;
+            font-weight: 700;
+            line-height: 18px;
+            vertical-align: middle;}
+    
+    
+/* Current area of development */
+#trioFrame{
+    width:100%;
+    display:flex; 
+    justify-content: center;}
+    
+    #trio{
+    background-color: aqua;
+    width:100%;
+    max-width: 1600px;
+    min-height:300px;
+    display:flex;
+    justify-items: center;
+    justify-content: center;}
+
+/* Responsive Configuration */
+
+/* window is larger than 1308px */
+@media (min-width: 1308px) {
+    articles .aWrap{
+        display:block;
+        margin-left:45px;
+        margin-right:45px;
+        margin-top:30px;}}
+
+/* window is smaller than 1380px */
+@media (max-width: 1308px) {
+    #MainImageOverlay h1{
+        padding-top:66px;
+        font-size: 58px;
         font-weight: 700;
-        line-height: 18px;
-        vertical-align: middle;
+        margin-bottom: 10px;}
+
+    #MainImageOverlay h2{
+        font-size: 22px;
+        font-weight: 700;
+        margin-top:10px;}
         
-    }
+    articles .aWrap{
+        margin-left:15px;
+        margin-right:15px;}}
+
+/* window is smaller than 960px */
+@media (max-width:960px) {
+    #NavList li, #NavList a, #IconNav li {  
+        padding-left: 6px;
+        padding-right:6px;  
+        display: block;}}
+
+/* window is larger than 1380px */
+@media (min-width:960px) {   
+    #NavList li, #NavList a, #IconNav li { 
+        padding-left: 18px;
+        padding-right:18px;  
+        display: block;}}
+
+/* window is larger than 640px */
+@media (max-width:640px) {
+    #NavList li, #NavList a, #IconNav li {  
+       display: none;}}
+
 
