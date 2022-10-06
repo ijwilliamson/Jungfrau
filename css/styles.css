@@ -1,3 +1,9 @@
+@font-face {
+    font-family: JungfrauSerif;
+    src: url('../fonts/jungfrauserif-regular-webfont.woff2') format('woff2')
+    
+}
+
 a{
     text-decoration: none;
     color:rgb(33, 56, 87);}
