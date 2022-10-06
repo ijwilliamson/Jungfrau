@@ -40,3 +40,11 @@
 
 #account:hover .loggedOut{
     fill: rgba(33, 56, 87);  }
+
+.social{
+    width:22px;
+    height:22px;
+    fill: #ffffff;
+    vertical-align: middle;}
+
+
